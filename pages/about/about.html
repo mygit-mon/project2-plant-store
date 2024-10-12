@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="plant store" />
+    <meta name="keywords" content="plant, store, flowers" />
+    <meta name="author" content="Raymond Dave Guibone" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Mon's Plant Store</title>
+
+    <link rel="icon" href="../../assets/logo.png" />
+    <link rel="stylesheet" href="../../styles/app.css" />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <!-- Hamburger Menu -->
+        <div class="menu-container">
+          <i class="fa fa-bars"></i>
+        </div>
+
+        <!-- Logo -->
+        <a href="#">
+          <img src="../../assets/logo.png" alt="logo" width="100" height="80"
+        /></a>
+
+        <!-- Navbar -->
+        <nav>
+          <ul class="main-menu">
+            <li>
+              <a href="#" class="active" onclick="activeNavbar(event)">Home</a>
+            </li>
+            <li>
+              <a href="#" onclick="activeNavbar(event)">Plants</a>
+              <ul class="submenu">
+                <li><a href="#">Organic</a></li>
+                <li><a href="#">Artificial</a></li>
+                <li><a href="#">Hybrid</a></li>
+                <li><a href="#">Indoor</a></li>
+                <li><a href="#">Exotic</a></li>
+              </ul>
+            </li>
+            <li><a href="#" onclick="activeNavbar(event)">About</a></li>
+            <li><a href="#" onclick="activeNavbar(event)">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <!-- Cart and User Icon -->
+        <div class="header-icon-container">
+          <div class="cart-icon">
+            <img src="./assets/plant-icons/shopping-cart.png" alt="" />
+          </div>
+
+          <div class="user-icon" onclick="toggleAuthentic()">
+            <img src="./assets/plant-icons/user.png" alt="" />
+          </div>
+        </div>
+
+        <!-- Register/Login -->
+        <div class="login-register-container">
+          <a href="#"><button class="btn">Sign Up</button></a>
+          <a href="#"><button class="btn login">Login</button></a>
+        </div>
+      </header>
+    </div>
+  </body>
+</html>

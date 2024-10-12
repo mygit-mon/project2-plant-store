@@ -1,0 +1,26 @@
+.banner-section .service-container {
+  margin-top: 40px;
+  width: 80%;
+  height: 15vh;
+  box-shadow: -5px 5px 10px #c1e3c470;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  border-radius: 10px;
+  background: var(--bg-green-5);
+}
+
+.banner-section .service-container .service-item {
+  text-align: center;
+}
+
+.banner-section .service-container .service-item img {
+  width: 60px;
+}
+
+.banner-section .service-container .service-item h2 {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 8px;
+}

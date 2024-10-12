@@ -1,0 +1,65 @@
+/* Each Section */
+@import url('./header.css');
+@import url('./banner.css');
+@import url('./slider.css');
+@import url('./service.css');
+
+/* Font awesome */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --primary: #1a531993;
+
+  --bg-green-900: #1a5319;
+  --bg-green-500: #508d4e;
+  --bg-green-100: #508d4e;
+  --bg-green-50: #80af81;
+  --bg-green-20: #c1e3c4;
+  --bg-green-10: #edf5ee;
+  --bg-green-5: #f7fcf8;
+
+  --box-shadow: #1a531951;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.btn {
+  background-color: var(--bg-green-20);
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  margin-right: 10px;
+  border-radius: 20px;
+  color: var(--bg-green-900);
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--bg-green-50);
+  color: var(--bg-green-10);
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+}

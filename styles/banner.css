@@ -1,0 +1,126 @@
+.banner-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 100px;
+}
+.banner-section .banner-container {
+  width: 80%;
+  border-radius: 20px;
+  min-height: 465px;
+  background-image: url(../assets/front-banner.png);
+  background-position: center;
+  background-size: cover;
+  padding: 60px;
+}
+
+.banner-section .banner-container .banner-details {
+  width: 45%;
+}
+
+.banner-section .banner-container .banner-details h1 {
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.banner-section .banner-container .banner-details .banner-details-item {
+  display: flex;
+  margin-top: 40px;
+}
+
+.banner-section
+  .banner-container
+  .banner-details
+  .banner-details-item
+  .banner-item:first-child {
+  margin-right: 60px;
+}
+
+.banner-section
+  .banner-container
+  .banner-details
+  .banner-details-item
+  .banner-item
+  .banner-item-number {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.banner-section .banner-container .banner-btn {
+  width: 350px;
+  height: 55px;
+  background: white;
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.banner-section .banner-container input {
+  outline: none;
+  width: 85%;
+  height: 100%;
+  border: none;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.banner-section .banner-container .banner-search-icon {
+  background: var(--bg-green-20);
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  right: 10px;
+  top: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.banner-section .banner-container .banner-search-icon img {
+  width: 25px;
+}
+
+@media (max-width: 850px) {
+  .banner-section {
+    margin-top: 108px;
+  }
+
+  .banner-section .banner-container {
+    width: 100%;
+    padding: 18px;
+    border-radius: 0;
+    min-height: 100px;
+  }
+
+  .banner-section .banner-container .banner-details {
+    width: 100%;
+  }
+
+  .banner-section .banner-container .banner-details h1 {
+    font-size: 25px;
+  }
+
+  .banner-section .banner-container .banner-details .banner-details-item {
+    display: flex;
+    margin-top: 0;
+  }
+
+  .banner-section
+    .banner-container
+    .banner-details
+    .banner-details-item
+    .banner-item
+    .banner-item-number {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .banner-section .banner-container .banner-btn {
+    margin-top: 20px;
+  }
+}
